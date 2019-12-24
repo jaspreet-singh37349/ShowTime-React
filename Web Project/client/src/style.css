@@ -1,0 +1,121 @@
+
+body{
+    background-color: rgb(22, 22, 24);
+}
+
+#abc{
+    margin-left: 200px;
+}
+
+.navbar-brand{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.caards{
+margin-left: 160px;
+align-content: center;
+display: flex;
+width: 1000px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.movie{
+
+width:170px;
+height: 330px;
+}
+
+.anim{
+
+width:170px;
+height: 330px;
+}
+.tv{
+
+width:170px;
+height: 330px;
+}
+
+.anim > p{
+    color:white;
+}
+.movie > p{
+    color:white;
+}
+.tv > p{
+    color:white;
+}
+
+.imgdata{
+height:230px;
+width:170px;
+margin-top: 10px;
+border-radius: 5%;
+}
+
+#inputSearch{
+    margin-left: 100px;
+    margin-top: 10px;
+    width:200px;
+}
+
+#search{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#heading{
+    color: white;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+
+.rating{
+    color: blue;
+}
+
+.imgdata:hover{
+    box-shadow: 5px 10px 8px 10px #04020c;
+}
+
+
+.flip-card-inner{
+    margin-left: 20px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-back,.flip-card-front{
+    width: 180px;
+    height: 340px;
+}
+
+.flip-card-back{
+    display: none;
+    transform: rotateY(180deg);
+}
+
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-front{
+    display: none;
+}
+
+.flip-card:hover .flip-card-back{
+    display: block;
+}
+.flip-card:hover .flip-card-data{
+    display: block;
+}
+
+.flip-card-data{
+    width: 170px;
+    height: 250px;
+    background-color: aqua;
+}
